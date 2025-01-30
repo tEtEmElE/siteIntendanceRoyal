@@ -1,0 +1,17 @@
+export default defineEventHandler((event)=>{
+  const jsonData = {
+    Frite:{
+      Title: "Faire des frites maison",
+      Ingredient: "Patates",
+      Materielle: "Friteuse",
+      Image: "https://www.specialgastronomie.com/recette-de-graisse-de-boeuf-pour-frites",
+      Etape: {
+        1: "Couper les frites",
+        2: "Faire une précuisson dans la friteuse",
+        3: "Faire la cuisson finale et déguster"
+      }
+    }
+}
+  console.log(jsonData)
+  return jsonData
+})
